@@ -10,13 +10,15 @@ This repository contains VBA macros used for the Minnesota River application of 
 The repository with the analytical solution to predict the equlibrium channel geometry is https://github.com/vipenrica/Channel-geometry
 The repository of the gravel bed river version, which is written in python and is modifed and updated by Wes Lauer, is https://github.com/MAST-1D/MAST-1D-2.0. 
 
-This repository is organized as follows: different versions of the model are stored and made public in different folders/directories. We plan to periodically update this repository wiht the latest versions of MAST-1D. 
-
-
+Excel files with different sub-models to compute channel migration are uploaded in this repository. Equilibrium files contain the Viparelli and Eke (2021) analytical model with various sub-models to compute annual migration rate and point bar height. Transient files contain version of the full model differing for the approach to compute annual migration rate and point bar height. File extension 'sf' indicate that bank migrations are computed with the Ege et al. (2014) model so that channel width and point bar height are both allowed to change in space and time. File extension 'eng' indicates that channel banks are not allowed to migrate independently; centerline migration rate and point bar height are computed as in Ikeda et al. (1981). File extension 'fix' indicates the mean annual channel migration rate and point bar height are specified values that do not vary in space and time, as in Viparelli et al. (2013). 
 
 REFERENCES
 
 De Rego, K., Lauer, J.W., Eaton, B., & Hassan, M. (2020). A decadal-scale numerical model for wandering, cobble-bedded rivers subject to disturbance. Earth Surface Processes and Landforms, 45, 912–927.
+
+Eke, E., Parker, G. & Y. Shimizu (2014). Numerical modeling of erosional and depositional bank processes in migrating river bends with self-formed width: Morphodynamics of bar push and bank pull, Journal of Geophysical Research: Earth Surface 119, 1455-1483.
+
+Ikeda, S., Parker, G. & K. Sawai, (1981). Bend theory of river meanders. Part 1. Linear development, Journal of Fluid Mechanics 112, 363-377.
 
 Lauer, J.W., & Parker, G. (2008a). Modeling framework for sediment deposition, storage, and evacuation in the floodplain of a meandering river: Theory. Water Resources Research, 44, W04425. 
 
